@@ -1,0 +1,13 @@
+@url = https://tkez4e8031.execute-api.us-east-1.amazonaws.com/prod/
+
+GET {{url}}/employee?id=336def34-caf5-46af-9c50-982a0fc0a291
+###
+
+POST {{url}}/employee
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "position": "Software Engineer"
+}
+###
